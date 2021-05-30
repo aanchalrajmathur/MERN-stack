@@ -1,0 +1,110 @@
+body{
+	position: static;
+	align-content: center;
+	background-size: 10%;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-repeat: no-repeat ;
+	background: url('mountain.jpg');
+	background-attachment: fixed;
+	background-size: cover;	
+}
+form{
+	background-color: rgb(245, 234, 234);
+	color: black;
+	opacity: 0.85;
+	border: 3px rgb(27, 122, 177);
+	border-style: solid;
+	width: 400px;
+	height: 600px;
+	top: 50%;
+	left: 50%;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+label{
+	font-family: cursive;
+	float: left;
+	width: 10em;
+	margin-left: 3EM;
+	color: black ;
+	display: block;
+}
+input{
+	background-color: rgb(73, 63, 63);
+	color: black;
+	text-decoration: solid;
+	height: 25px;
+	width: 250px;
+}
+h2{
+	padding: 25px;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(39, 28, 26);
+	font-size: 45px;	
+}
+a{
+	color:tomato;
+}
+a:hover{
+	color: blue;
+}
+input::placeholder{
+	color: whitesmoke;
+	opacity: 2;
+	border: 2px white;
+}
+.button{
+	color: whitesmoke;
+	background-color: rgb(48, 164, 241);
+	padding: 5px 15px;
+	margin: 15px;
+	text-align: center;
+	width: 100px; 
+	border-radius: 10px;   
+}
+#three{
+	color: black;
+	background-color: cornsilk;
+	opacity: 0.85;
+	border: 3px rgb(27, 122, 177);
+	border-style: solid;
+	width: 800px;
+	height: 600px;
+	margin-bottom: 10px;
+	margin-top: 10px ;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+	font-family: cursive;
+	font-style: italic;
+	font-size: 40px;
+	color: rgb(112, 86, 74);
+}
+h1{
+	color: rgb(81, 160, 197) ;
+	padding: 20px;
+}
+#one{
+	color: white;
+	background-color: black;
+	padding: 15px;
+	margin: 10px;
+}
+#two{
+	color: white;
+	background-color: black;
+	padding: 15px;
+	margin: 10px;
+}
+#one:hover{
+color: blue;
+}
+#two:hover{
+	color: blue;
+}
+#four:hover{
+	color: blue;
+}
+#five:hover{
+	color: blue;
+}
