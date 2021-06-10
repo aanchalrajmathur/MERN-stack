@@ -5,7 +5,7 @@ buttons.forEach(function(button) {
   button.addEventListener('click', calculate);
 });
 
-function calculate(event) {
+function calculate(event){
   const clickedButtonValue = event.target.value;
 
   if (clickedButtonValue === '=') {
